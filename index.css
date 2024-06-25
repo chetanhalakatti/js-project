@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width:100% ;
+    height: 100%;
+}
+.top{ 
+    width: 100%;
+    height: 60%;
+    background-image: url(usgs-hoS3dzgpHzw-unsplash.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+#over{
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    justify-content: space-between; 
+}
+#text{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    padding: 0vw 10vh;
+    justify-content: space-between;
+    width: 70%;
+    
+     
+}
+#text h3{
+    font-size: 6vw; 
+    justify-content: space-between;
+}
+#text p {
+    justify-content: space-between;
+    font-size: 17px;
+    
+}
+#righttext{
+    justify-content: space-between;
+    width: 40%;
+    display: flex;
+}
+#lefttext{
+    justify-content: space-between;
+    width: 60%;
+    display: flex;
+}
+.bottom{
+    display:flex;
+    width: 100%;
+    height: 60%;
+    
+}
+#bone{    
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 3vw;
+    font-weight: 400;
+}
+#btwo{
+    background-color: rgba(0, 0, 0, 0.146);
+    background-image: url(peyman-farmani-6JBnDjTTgqQ-unsplash.jpg);   
+    background-size :cover;
+    width: 25%;
+    height: 100%;
+    
+}
+#bthree{
+    width: 25%;
+    height: 100%;
+    background-color: lightsalmon;
+}
+#pone{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+    padding: 30px;
+    font-size: 1.4vw;
+    color: #fff;
+}
+#ptwo{
+    width: 100%;
+    height: 50%;
+    background-image: url(eugene-golovesov-epriM0jyEY4-unsplash.jpg);
+    background-size : cover ;
+}
+#bfour{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(37, 50, 50);
+}
